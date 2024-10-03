@@ -1,0 +1,21 @@
+* {
+  font-family: Montserrat;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo {
+    src: url(../assets/LOGO.png);
+    width: 100px;
+  }
+  
+  .nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+  }

@@ -1,0 +1,14 @@
+.locations-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.location-card {
+  background-color: #ff6666;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}
