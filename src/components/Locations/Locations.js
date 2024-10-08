@@ -1,17 +1,17 @@
 import React from 'react';
-import locations from '../data/Locations.json'; 
-import './LocationsGrid.css'; 
+import locations from '../../data/Locations.json'; 
+import './Locations.css'; 
 
-function LocationsGrid() {
+function Locations() {
   return (
     <div className="locations-grid">
       {locations.map((location) => (
         <div key={location.id} className="location-card">
-          <h2>{location.titre}</h2>
+          <h2>{location.title}</h2>
         </div>
       ))}
     </div>
   );
 }
 
-export default LocationsGrid;
+export default Locations;

@@ -1,5 +1,8 @@
 import React from 'react';
-import Accueil from './pages/Accueil';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Accueil from './pages/Accueil/Accueil';
+import About from './pages/About/About';
+import Error404 from './pages/Erreur404/Erreur404';
 
 function App() {
   return (
@@ -9,4 +12,16 @@ function App() {
   );
 }
 
-export default App;
+function AboutApp() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Accueil />} />
+        <Route path="/about" element={<About />} />
+        <Route path="*" element={<Error404 />} />
+      </Routes>
+    </Router>
+  );
+}
+
+export {App, AboutApp} ;

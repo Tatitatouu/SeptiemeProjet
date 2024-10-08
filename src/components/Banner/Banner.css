@@ -1,12 +1,14 @@
 .banner {
-    background-image: url('../assets/ImgAccueil.jpg');
+    background-image: url('../../assets/ImgAccueil.jpg');
     background-size: cover;
     background-position: center;
-    height: 300px;
+    height: 223px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
+    border-radius: 25px;
+    margin: 0 5em 0 5em;
   }
 
   .banner h1 {
