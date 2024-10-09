@@ -1,8 +1,10 @@
-.locations-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+.locations {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   gap: 20px;
   padding: 20px;
+  width: 50%;
 }
 
 .location-card {
@@ -11,4 +13,10 @@
   border-radius: 10px;
   color: white;
   text-align: center;
-}
+  width: 50%;
+}  
+
+.location-cover {
+  width: 100%;
+} 
+

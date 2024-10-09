@@ -1,17 +1,20 @@
 import React from 'react';
-import locations from '../../data/Locations.json'; 
-import './Locations.css'; 
+import { Link } from 'react-router-dom';
+import locations from '../../data/LocationsData.json';
+import './Locations.css';
 
-function Locations() {
+const Locations = () => {
   return (
-    <div className="locations-grid">
+    <div className="locations">
       {locations.map((location) => (
-        <div key={location.id} className="location-card">
-          <h2>{location.title}</h2>
-        </div>
+        <Link to={`/location/${location.id}`} key={location.id} className="location-card">
+          <img src={location.cover} alt={location.title} className="location-cover" />
+          <h2 className="location-title">{location.title}</h2>
+          <p className="location-subtitle">{location.location}</p>
+        </Link>
       ))}
     </div>
   );
-}
+};
 
 export default Locations;
