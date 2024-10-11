@@ -1,0 +1,35 @@
+.host {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.host-rating {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.host img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+.two-line-name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    line-height: 1.2;
+    color: #FF6060;
+    font-weight: 550;
+    gap: 0.25em;
+    margin-right: 1em;
+}
+
+.two-line-name .first-name,
+.two-line-name .last-name {
+    display: block;
+}
+

@@ -1,16 +1,29 @@
 .banner {
-    background-image: url('../../assets/ImgAccueil.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 223px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    border-radius: 25px;
-    margin: 0 5em 0 5em;
+  background-image: url('../../assets/ImgAccueil.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 223px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 25px;
+  margin: auto 6.5em;
+}
+
+.banner h1 {
+  font-size: 36px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .banner {
+    margin: 8em;
   }
 
   .banner h1 {
-    font-size: 36px;
+    font-size: 24px;
+    margin: 0.5em;
   }
+}
