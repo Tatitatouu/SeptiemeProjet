@@ -1,0 +1,14 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 50px;
+  }
+  
+  .footer-logo {
+    width: 100px;
+    margin-bottom: 20px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(330deg) brightness(200%) contrast(100%);;
+  }

@@ -1,0 +1,62 @@
+.error-container .error-content {
+    display: flex;
+    flex-direction: column;
+    min-height: 60vh;
+    align-items: center;
+    text-align: center;
+    margin: 5em;
+  }
+  
+  .error-header {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 150px;
+  }
+  
+  .error-header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .error-header a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+  }
+  
+  .error-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .error-404 {
+    font-size: 10rem;
+    color: #FF6060;
+  }
+  
+  .error-message {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    color: #FF6060;
+  }
+  
+  .error-link {
+    color: black;
+    font-size: 1rem;
+  }
+  
+  .error-footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+  }

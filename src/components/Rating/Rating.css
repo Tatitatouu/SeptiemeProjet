@@ -1,0 +1,10 @@
+.rating {
+    display: flex;
+}
+
+.star {
+    color: #FF6060;
+    font-size: 24px;
+    margin-right: 5px;
+}
+

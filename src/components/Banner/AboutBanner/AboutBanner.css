@@ -1,0 +1,7 @@
+.about-banner {
+    background-image: url('../../../assets/ImgAbout.png');
+    filter: brightness(1.5);
+    background-size: cover;
+    background-position: center;
+    border-radius: 25px;
+  }

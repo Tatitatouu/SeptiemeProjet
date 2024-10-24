@@ -1,0 +1,42 @@
+.home-banner {
+  position: relative;
+  background-image: url('../../../assets/ImgAccueil.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 223px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  margin: auto 6.5em;
+}
+
+.home-banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.home-banner h1 {
+  position: relative;
+  font-size: 36px;
+  z-index: 10; 
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+@media screen and (max-width: 768px) {
+  .home-banner {
+    margin: 8em;
+  }
+
+  .home-banner h1 {
+    font-size: 24px;
+    margin: 0.5em;
+  }
+}
