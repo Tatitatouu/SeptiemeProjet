@@ -1,4 +1,6 @@
-                                                                                                                                                                                                                                                                           # Getting Started with Create React App
+![Texte alternatif](./src/assets/Capture%20d'écran%202024-10-24%20155538.png)
+
+# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
